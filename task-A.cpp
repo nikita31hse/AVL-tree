@@ -7,7 +7,7 @@ template<class ValueType> class Set{
         Node* left;
         Node* right;
         ValueType val;
-        int height;
+        size_t height;
         typename std::list<ValueType>::iterator iter;
 
         Node(const ValueType &x) {
